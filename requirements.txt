@@ -6,3 +6,4 @@ numpy
 datetime
 streamlit_option_menu
 prophet
+scikit-learn
