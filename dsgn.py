@@ -6,7 +6,7 @@ from PIL import Image
 from matplotlib import pyplot
 
 def app():
-    data = pd.read_csv(r"D:\dashboard\bookingholding.csv")
+    data = pd.read_csv("bookingholding.csv")
 
     st.title("Project Design")
 
