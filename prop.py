@@ -5,16 +5,10 @@ import plotly.express as px
 from datetime import datetime
 from pandas import DataFrame
 
-data = pd.read_csv(r"D:\dashboard\bookingholding.csv")
+data = pd.read_csv("bookingholding.csv")
 
 model = Prophet(changepoint_range = 1)
 model.fit(data)
-
-# st.subheader("Gold Price Prediction on Prophet Model")
-# # line1 = px.line(mydata, x= mydata['Date'] , y=mydata['Close'])
-# line1.update_xaxes(rangeslider_visible=True)
-# st.plotly_chart(line1,use_container_width=True)
-
 
 def app():
     st.title("Prophet Model Test")
