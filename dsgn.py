@@ -182,7 +182,7 @@ def app():
 
     st.subheader("Prophet Model Components")
 
-    img = Image.open(r"D:\dashboard\bookingholding\model_components.png")
+    img = Image.open("model_components.png")
 
     st.image(img, caption='Yearly, Weekly, Monthly Trend')
 
@@ -302,7 +302,7 @@ def app():
     st.markdown('Outcome: after hyperparameter tuning with changepoint_range = 1')
     st.write(forecast_aftertuning[['ds', 'yhat', 'yhat_lower', 'yhat_upper']])
 
-    img1 = Image.open(r"D:\dashboard\bookingholding\hyperparameter.png")
+    img1 = Image.open("hyperparameter.png")
 
     st.image(img1, caption='Predicted and Actual Data for 2023')
 
@@ -352,7 +352,7 @@ def app():
     '''
     st.code(change_code , language='python')
 
-    img2 = Image.open(r"D:\dashboard\bookingholding\changepoint.png")
+    img2 = Image.open("changepoint.png")
 
     st.image(img2, caption='Change point detection')
 
@@ -370,6 +370,6 @@ def app():
 
     st.code(compare_code , language='python')
 
-    img3 = Image.open(r"D:\dashboard\bookingholding\predictvsactual.png")
+    img3 = Image.open("predictvsactual.png")
 
     st.image(img3, caption='Predict vs Actual Data')
