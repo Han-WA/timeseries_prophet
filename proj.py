@@ -3,10 +3,9 @@ import streamlit as st
 def app():
     st.title("Time Series Analysis using Prophet with Hyperparameter Tuning")
 
-    about = '''This project involves the forecasting of Booking Holding Inc. stock price using Time-Series Analysis with a dataset obtained from Yahoo Finance.
-    The dataset spans from January 1, 2018, to the recent date, December 31, 2023. 
-    Booking Holdings Inc. is a well-known online travel company that owns and operates various travel-related websites, including Booking.com, Agoda and others. 
-    When it comes to the investment oppotunity, Booking Holdings is a major player in terms of Market Dominance, Financial Performance and Technological Innovations.
+    about = '''This project involves the forecasting of GOLD (XAUUSD) price using Time-Series Analysis with a dataset obtained from Yahoo Finance.
+    The dataset spans from January 1, 2010, to the recent date, April 31, 2024. 
+    When it comes to the investment oppotunity, GOLD is a major player in terms of Market Dominance, Financial Performance.
     '''
 
     justified_text = f"<div style='text-align: justify;'>{about}</div>"
