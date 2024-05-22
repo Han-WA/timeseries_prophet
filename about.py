@@ -8,8 +8,8 @@ from datetime import datetime
 def app():
     st.title("Data Overview")
 
-    mydata = pd.read_csv("bkholding.csv")
-    df = pd.read_csv("bookingholding.csv")
+    mydata = pd.read_csv("maybank_data.csv")
+    df = pd.read_csv("maybank_data.csv")
 
     # Printing the dataswet shape
     st.subheader("Data Collection")
