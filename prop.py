@@ -5,7 +5,7 @@ import plotly.express as px
 from datetime import datetime
 from pandas import DataFrame
 
-data = pd.read_csv("bookingholding.csv")
+data = pd.read_csv("maybank_data.csv")
 
 model = Prophet(changepoint_range = 1)
 model.fit(data)
