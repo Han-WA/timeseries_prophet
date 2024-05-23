@@ -186,7 +186,7 @@ def app():
 
     st.image(img, caption='Yearly, Weekly, Monthly Trend')
 
-    explain3 = '''As we can see in the above plots, when we have a look at the trend (first figure), Booking Holding Inc. stock price has been increasing gradually throughout the year 2023.
+    explain3 = '''As we can see in the above plots, when we have a look at the trend (first figure), GOLD price has been increasing gradually throughout the year 2023.
     According to the weekly (second figure), price usually go up when the market opens on Monday and go down when the market close on Friday while consolidating during the week.
     Lastly, yearly (third figure) shows that price usually is up during the beginning month of the year while displaying up and down from time to time. But price normally is down(lowest) around November before 
     major increase.'''
