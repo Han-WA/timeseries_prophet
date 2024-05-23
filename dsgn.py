@@ -329,7 +329,7 @@ def app():
     '''
     st.code(errorafter_code, language='python')
 
-    y_true_after = data['y'][-260:].values
+    y_true_after = data['y'][-261:].values
     y_pred_after = forecast_aftertuning['yhat'].values
 
     mae = mean_absolute_error(y_true_after, y_pred_after)
